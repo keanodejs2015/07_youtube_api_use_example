@@ -14,8 +14,6 @@ app.get('/', function(req, res) {
             console.log(data);
         } else console.log("error");
     });
-
-
 });
 
 app.get('/:id', function(req, res) {
